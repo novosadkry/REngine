@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Engine = Debug|Engine
+		Debug|Sandbox = Debug|Sandbox
+		Release|Engine = Release|Engine
+		Release|Sandbox = Release|Sandbox
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Debug|Engine.ActiveCfg = Debug Engine|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Debug|Engine.Build.0 = Debug Engine|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Debug|Sandbox.ActiveCfg = Debug Sandbox|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Debug|Sandbox.Build.0 = Debug Sandbox|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Release|Engine.ActiveCfg = Release Engine|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Release|Engine.Build.0 = Release Engine|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Release|Sandbox.ActiveCfg = Release Sandbox|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Release|Sandbox.Build.0 = Release Sandbox|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Debug|Engine.ActiveCfg = Debug Engine|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Debug|Engine.Build.0 = Debug Engine|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Debug|Sandbox.ActiveCfg = Debug Sandbox|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Debug|Sandbox.Build.0 = Debug Sandbox|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Release|Engine.ActiveCfg = Release Engine|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Release|Engine.Build.0 = Release Engine|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Release|Sandbox.ActiveCfg = Release Sandbox|x64
+		{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}.Release|Sandbox.Build.0 = Release Sandbox|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
