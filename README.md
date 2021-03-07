@@ -8,5 +8,7 @@ Inspired by [Cherno's Hazel Engine](https://github.com/TheCherno/Hazel)
 
 * Download [Premake5](https://premake.github.io/)
 
+* Clone using `git clone --recursive https://github.com/novosadkry/REngine.git`
+
 * For Visual Studio, run `premake5 vs2019` inside the root directory, open the `.sln` solution file and compile.
   * Alternatively, run `premake5 gmake2` for a Makefile and run `make all`.
