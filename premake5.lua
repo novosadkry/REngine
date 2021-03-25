@@ -5,8 +5,9 @@ workspace "REngine"
     platforms { "Engine", "Sandbox" }
 
     startproject "Sandbox"
-
     outputdir = "%{cfg.system}-%{cfg.architecture}.%{cfg.buildcfg}"
+
+    include "Engine/libs/glfw.lua"
 
     project "Engine"
         location "Engine"
@@ -25,10 +26,14 @@ workspace "REngine"
             "%{prj.name}/src/**.cpp"
         }
 
+        links {
+            "GLFW"
+        }
+
         includedirs {
             "%{prj.name}/src/include",
             "%{prj.name}/libs/spdlog/include",
-			"%{prj.name}/libs/glfw/include"
+            "%{prj.name}/libs/glfw/include"
         }
 
         postbuildcommands {
@@ -68,11 +73,14 @@ workspace "REngine"
             "%{prj.name}/src/**.cpp"
         }
 
-        links { "Engine" }
+        links {
+            "Engine"
+        }
+
         includedirs {
             "Engine/src/include",
             "Engine/libs/spdlog/include",
-			"Engine/libs/glfw/include"
+            "Engine/libs/glfw/include"
         }
 
         filter "system:windows"
