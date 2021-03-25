@@ -27,7 +27,8 @@ workspace "REngine"
 
         includedirs {
             "%{prj.name}/src/include",
-            "%{prj.name}/libs/spdlog/include"
+            "%{prj.name}/libs/spdlog/include",
+			"%{prj.name}/libs/glfw/include"
         }
 
         postbuildcommands {
@@ -70,7 +71,8 @@ workspace "REngine"
         links { "Engine" }
         includedirs {
             "Engine/src/include",
-            "Engine/libs/spdlog/include"
+            "Engine/libs/spdlog/include",
+			"Engine/libs/glfw/include"
         }
 
         filter "system:windows"
